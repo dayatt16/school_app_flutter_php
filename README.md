@@ -52,59 +52,59 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
 
 ### Endpoint Informasi
 
-- **GET /information**: Mendapatkan daftar semua informasi.
+- **GET `/information`**: Mendapatkan daftar semua informasi.
   - **Response**: JSON array dari objek informasi.
 
-- **GET /information/{id}**: Mendapatkan detail informasi berdasarkan ID.
+- **GET `/information/{id}`**: Mendapatkan detail informasi berdasarkan ID.
   - **Response**: JSON objek dari informasi.
 
-- **POST /information**: Menambah informasi baru.
+- **POST `/information**`: Menambah informasi baru.
   - **Body**: JSON objek dengan detail informasi.
   - **Response**: JSON objek dari informasi yang baru ditambahkan.
 
-- **PUT /information/{id}**: Memperbarui informasi berdasarkan ID.
+- **PUT `/information/{id}`**: Memperbarui informasi berdasarkan ID.
   - **Body**: JSON objek dengan detail informasi yang diperbarui.
   - **Response**: JSON objek dari informasi yang diperbarui.
 
-- **DELETE /information/{id}**: Menghapus informasi berdasarkan ID.
+- **DELETE `/information/{id}`**: Menghapus informasi berdasarkan ID.
   - **Response**: Status penghapusan.
 
 ### Endpoint Agenda
 
-- **GET /agendas**: Mendapatkan daftar semua agenda.
+- **GET `/agendas`**: Mendapatkan daftar semua agenda.
   - **Response**: JSON array dari objek agenda.
 
-- **GET /agendas/{id}**: Mendapatkan detail agenda berdasarkan ID.
+- **GET `/agendas/{id}`**: Mendapatkan detail agenda berdasarkan ID.
   - **Response**: JSON objek dari agenda.
 
-- **POST /agendas**: Menambah agenda baru.
+- **POST `/agendas`**: Menambah agenda baru.
   - **Body**: JSON objek dengan detail agenda.
   - **Response**: JSON objek dari agenda yang baru ditambahkan.
 
-- **PUT /agendas/{id}**: Memperbarui agenda berdasarkan ID.
+- **PUT `/agendas/{id}`**: Memperbarui agenda berdasarkan ID.
   - **Body**: JSON objek dengan detail agenda yang diperbarui.
   - **Response**: JSON objek dari agenda yang diperbarui.
 
-- **DELETE /agendas/{id}**: Menghapus agenda berdasarkan ID.
+- **DELETE `/agendas/{id}`**: Menghapus agenda berdasarkan ID.
   - **Response**: Status penghapusan.
 
 ### Endpoint Galeri
 
-- **GET /galleries**: Mendapatkan daftar semua galeri.
+- **GET `/galleries`**: Mendapatkan daftar semua galeri.
   - **Response**: JSON array dari objek galeri.
 
-- **GET /galleries/{id}**: Mendapatkan detail galeri berdasarkan ID.
+- **GET `/galleries/{id}`**: Mendapatkan detail galeri berdasarkan ID.
   - **Response**: JSON objek dari galeri.
 
-- **POST /galleries**: Menambah gambar ke galeri.
+- **POST `/galleries`**: Menambah gambar ke galeri.
   - **Body**: JSON objek dengan detail gambar.
   - **Response**: JSON objek dari gambar yang baru ditambahkan.
 
-- **PUT /galleries/{id}**: Memperbarui gambar di galeri berdasarkan ID.
+- **PUT `/galleries/{id}`**: Memperbarui gambar di galeri berdasarkan ID.
   - **Body**: JSON objek dengan detail gambar yang diperbarui.
   - **Response**: JSON objek dari gambar yang diperbarui.
 
-- **DELETE /galleries/{id}**: Menghapus gambar dari galeri berdasarkan ID.
+- **DELETE `/galleries/{id}`**: Menghapus gambar dari galeri berdasarkan ID.
   - **Response**: Status penghapusan.
 
 ## Demo APK
