@@ -11,6 +11,7 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
 
 - **Flutter**: Untuk pengembangan aplikasi mobile.
 - **PHP Native**: Untuk backend RESTful API.
+## Library Flutter yang Digunakan
 - **HTTP**: Untuk komunikasi antara aplikasi dan server.
 - **Persistent Bottom Nav Bar**: Untuk navigasi yang konsisten.
 - **Cached Network Image**: Untuk caching gambar.
