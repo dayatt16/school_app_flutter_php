@@ -260,7 +260,7 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
     ```json
     {
       "status_code": 200,
-      "message": "Agenda successfully deleted.",
+      "message": "Resource successfully deleted.",
       "data": {
         "kd_agenda": 1
       }
@@ -309,11 +309,41 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
 
 - **POST `/galleries`**: Menambah gambar ke galeri.
   - **Request Body**: form-data dengan detail gambar.
-  - **Response**: JSON objek dari gambar yang baru ditambahkan.
+  - **Response**:
+    ```json
+    {
+      "status_code": 201,
+      "message": "Gallery created successfully",
+      "data": {
+        "kd_galery": 69,
+        "judul_galery": "judul baru",
+        "foto_galery": "fea63e538e8049d684e456010767ec13.jpeg",
+        "isi_galery": "isi baru",
+        "tgl_post_galery": "2024-10-14",
+        "status_galery": 1,
+        "kd_petugas": 1
+      }
+    }
+    ```
 
 - **PUT `/galleries/{id}`**: Memperbarui gambar di galeri berdasarkan ID.
   - **Request Body**: JSON objek dengan detail gambar yang diperbarui.
-  - **Response**: JSON objek dari gambar yang diperbarui.
+  - **Response**:
+    ```json
+    {
+      "status_code": 201,
+      "message": "Gallery created successfully",
+      "data": {
+        "kd_galery": 69,
+        "judul_galery": "judul baru",
+        "foto_galery": "fea63e538e8049d684e456010767ec13.jpeg",
+        "isi_galery": "isi baru",
+        "tgl_post_galery": "2024-10-14",
+        "status_galery": 1,
+        "kd_petugas": 1
+      }
+    }
+    ```
 
 - **DELETE `/galleries/{id}`**: Menghapus gambar dari galeri berdasarkan ID.
   - **Response**:
