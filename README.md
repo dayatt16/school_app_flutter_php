@@ -111,14 +111,4 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
 
 Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_portal_flutter_php/blob/main/apk_school_portal/school.apk)
 
-## Kontribusi
 
-Kontribusi sangat diterima! Silakan fork repository ini dan buat pull request untuk perubahan yang ingin Anda usulkan.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
-## Kontak
-
-Untuk pertanyaan lebih lanjut, silakan hubungi [email@example.com](mailto:email@example.com).
