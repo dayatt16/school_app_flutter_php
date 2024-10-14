@@ -270,10 +270,42 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
 ### Endpoint Galeri
 
 - **GET `/galleries`**: Mendapatkan daftar semua galeri.
-  - **Response**: JSON array dari objek galeri.
+  - **Response**:
+    ```json
+    {
+      "status_code": 200,
+      "message": "List of Gallery",
+      "data": [
+        {
+          "kd_galery": 1,
+          "judul_galery": "judul testing",
+          "foto_galery": "fea63e538e8049d684e420010767ec21.jpeg",
+          "isi_galery": "isi testing",
+          "tgl_post_galery": "2024-10-14",
+          "status_galery": 1,
+          "kd_petugas": 1
+        }
+      ]
+    }
+    ```
 
 - **GET `/galleries/{id}`**: Mendapatkan detail galeri berdasarkan ID.
-  - **Response**: JSON objek dari galeri.
+  - **Response**:
+    ```json
+    {
+      "status_code": 200,
+      "message": "Gallery found",
+      "data": {
+        "kd_galery": 1,
+          "judul_galery": "judul testing",
+          "foto_galery": "fea63e538e8049d684e420010767ec21.jpeg",
+          "isi_galery": "isi testing",
+          "tgl_post_galery": "2024-10-14",
+          "status_galery": 1,
+          "kd_petugas": 1
+      }
+    }
+    ```
 
 - **POST `/galleries`**: Menambah gambar ke galeri.
   - **Request Body**: form-data dengan detail gambar.
