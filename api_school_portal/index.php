@@ -1,18 +1,5 @@
 <?php
-// get all information
-// https://praktikum-cpanel-unbin.com/kelompok_ojan/api_school_app_fauzan/information
-// get information by id
-// https://praktikum-cpanel-unbin.com/kelompok_ojan/api_school_app_fauzan/information/1
 
-// get all agendas
-// https://praktikum-cpanel-unbin.com/kelompok_ojan/api_school_app_fauzan/agendas
-// get agendas by id
-// https://praktikum-cpanel-unbin.com/kelompok_ojan/api_school_app_fauzan/agendas/1
-
-// get all galleries
-// https://praktikum-cpanel-unbin.com/kelompok_ojan/api_school_app_fauzan/galleries
-// get galleries by id
-// https://praktikum-cpanel-unbin.com/kelompok_ojan/api_school_app_fauzan/galleries/1
 
 require_once __DIR__ . '/utils/response.php';
 require_once __DIR__ . '/routes/infoRoute.php';
