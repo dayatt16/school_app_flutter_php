@@ -58,7 +58,7 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
 - **GET `/information/{id}`**: Mendapatkan detail informasi berdasarkan ID.
   - **Response**: JSON objek dari informasi.
 
-- **POST `/information**`: Menambah informasi baru.
+- **POST `/information`**: Menambah informasi baru.
   - **Body**: JSON objek dengan detail informasi.
   - **Response**: JSON objek dari informasi yang baru ditambahkan.
 
