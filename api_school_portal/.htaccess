@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /kelompok_ojan/api_school_app_fauzan/
+
+# Jika file atau direktori tidak ada, lanjutkan ke aturan berikutnya
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Aturan rewrite untuk endpoint
+RewriteRule ^(information|agendas|galleries)(/([0-9]+))?/?$ index.php?resource=$1&id=$3 [QSA,L]
+
+# Aturan tambahan untuk menangani root URL
+RewriteRule ^$ index.php [QSA,L]
