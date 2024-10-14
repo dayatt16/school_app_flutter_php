@@ -284,8 +284,16 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
   - **Response**: JSON objek dari gambar yang diperbarui.
 
 - **DELETE `/galleries/{id}`**: Menghapus gambar dari galeri berdasarkan ID.
-  - **Response**: Status penghapusan.
-
+  - **Response**:
+    ```json
+    {
+      "status_code": 200,
+      "message": "Resource successfully deleted.",
+      "data": {
+        "kd_galery": 1
+      }
+    }
+    ```
 ## Demo APK
 
 Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_portal_flutter_php/raw/main/apk_school_portal/school.apk)
