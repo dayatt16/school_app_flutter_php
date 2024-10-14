@@ -327,12 +327,22 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
     ```
 
 - **PUT `/galleries/{id}`**: Memperbarui gambar di galeri berdasarkan ID.
-  - **Request Body**: JSON objek dengan detail gambar yang diperbarui.
+  - **Request Body**:
+    ```json
+    {
+      "judul_galery": "Pameran Seni Diperbarui",
+      "isi_galery": "Pameran seni tahunan sekolah yang diperbarui.",
+      "tgl_post_galery": "2023-10-02",
+      "status_galery": 1,
+      "kd_petugas": 102,
+      "foto_galery": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+    }
+    ```
   - **Response**:
     ```json
     {
       "status_code": 201,
-      "message": "Gallery created successfully",
+      "message": "Gallery berhasil diperbarui",
       "data": {
         "kd_galery": 69,
         "judul_galery": "judul baru",
@@ -350,10 +360,8 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
     ```json
     {
       "status_code": 200,
-      "message": "Resource successfully deleted.",
-      "data": {
-        "kd_galery": 1
-      }
+      "message": "Gallery berhasil dihapus",
+      "data": null
     }
     ```
 ## Demo APK
