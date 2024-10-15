@@ -308,7 +308,8 @@ School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, d
     ```
 
 - **POST `/galleries`**: Menambah gambar ke galeri.
-  - **Request Body**: form-data dengan detail gambar.
+  - **Request Body**:
+    ![Contoh Permintaan Postman](https://raw.githubusercontent.com/dayatt16/school_portal_flutter_php/main/assets/images/post-gallery.png)
   - **Response**:
     ```json
     {
