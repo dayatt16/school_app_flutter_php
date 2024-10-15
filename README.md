@@ -1,6 +1,6 @@
-# School App MP4
+# School App
 
-School App MP4 adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, dengan backend RESTful API menggunakan PHP native. Aplikasi ini mendukung dua peran: murid untuk mendapatkan data dan petugas untuk melakukan CRUD pada informasi, agenda, dan galeri.
+School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, dengan backend RESTful API menggunakan PHP native. Aplikasi ini mendukung dua peran: murid untuk mendapatkan data dan petugas untuk melakukan CRUD pada informasi, agenda, dan galeri.
 
 ## Fitur
 
