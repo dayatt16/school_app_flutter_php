@@ -367,4 +367,4 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
     ```
 ## Demo APK
 
-Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_portal_flutter_php/raw/main/apk_school_portal/school.apk)
+Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_portal_flutter_php/raw/main/apk_school/school.apk)
