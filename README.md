@@ -51,7 +51,7 @@ lib/
 ├── controllers/       # Logic dan state management
 ├── models/            # Model data/entities
 ├── routes/            # Route/navigator aplikasi  
-├── services/          # Service API dan local storage
+├── services/          # Service API calls/HTTP requests
 ├── themes/            # Konfigurasi tema aplikasi
 ├── views/             # UI screens
 └── main.dart          # Entry point aplikasi
