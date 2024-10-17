@@ -159,7 +159,7 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
 
 ### Endpoint Agenda
 
-- **GET `/agendas`**: Mendapatkan daftar semua agenda.
+- **GET `/agendas`**: Menampilkan daftar semua agenda.
   - **Response**:
     ```json
     {
@@ -179,7 +179,7 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
     }
     ```
 
-- **GET `/agendas/{id}`**: Mendapatkan detail agenda berdasarkan ID.
+- **GET `/agendas/{id}`**: Menampilkan detail agenda berdasarkan ID.
   - **Response**:
     ```json
     {
@@ -269,7 +269,7 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
 
 ### Endpoint Galeri
 
-- **GET `/galleries`**: Mendapatkan daftar semua galeri.
+- **GET `/galleries`**: Menampilkan daftar semua galeri.
   - **Response**:
     ```json
     {
@@ -289,7 +289,7 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
     }
     ```
 
-- **GET `/galleries/{id}`**: Mendapatkan detail galeri berdasarkan ID.
+- **GET `/galleries/{id}`**: Menampilkan detail galeri berdasarkan ID.
   - **Response**:
     ```json
     {
@@ -367,10 +367,14 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
     ```
 ## Demo APK
 
-Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_portal_flutter_php/raw/main/apk_school/school.apk)
-- petugas 
-username : petugas
-password : 123
--murid
-username : murid
-password : 123
+Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_app_flutter_php/raw/main/apk_school/school.apk)
+
+### Akun Demo
+
+- **Petugas**
+  - **Username**: petugas
+  - **Password**: 123
+
+- **Murid**
+  - **Username**: murid
+  - **Password**: 123
