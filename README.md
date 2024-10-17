@@ -27,11 +27,11 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
 
 1. **Clone repository ini**:
    ```bash
-   git clone https://github.com/username/school_app_mp4.git
+   git clone https://github.com/dayatt16/school_app_flutter_php.git
    ```
 2. **Navigasi ke direktori proyek**:
    ```bash
-   cd school_app_mp4
+   cd school_app_flutter_php
    ```
 3. **Install dependencies**:
    ```bash
