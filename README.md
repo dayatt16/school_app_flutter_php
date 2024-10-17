@@ -56,6 +56,19 @@ lib/
 ├── views/             # UI screens
 └── main.dart          # Entry point aplikasi
 ```
+## Demo APK
+
+Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_app_flutter_php/raw/main/apk_school/school.apk)
+
+### Akun Demo
+
+- **Petugas**
+  - **Username**: petugas
+  - **Password**: 123
+
+- **Murid**
+  - **Username**: murid
+  - **Password**: 123
 
 ## Dokumentasi API
 
@@ -371,16 +384,3 @@ lib/
       "data": null
     }
     ```
-## Demo APK
-
-Anda dapat mengunduh APK demo dari aplikasi ini melalui tautan berikut: [Download APK](https://github.com/dayatt16/school_app_flutter_php/raw/main/apk_school/school.apk)
-
-### Akun Demo
-
-- **Petugas**
-  - **Username**: petugas
-  - **Password**: 123
-
-- **Murid**
-  - **Username**: murid
-  - **Password**: 123
