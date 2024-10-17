@@ -46,10 +46,16 @@ School App adalah aplikasi Flutter yang dirancang untuk manajemen sekolah, denga
    ```
 
 ## Struktur Proyek
-
-- `lib/`: Berisi kode sumber aplikasi Flutter.
-- `assets/`: Berisi gambar dan font yang digunakan dalam aplikasi.
-- `pubspec.yaml`: Berisi informasi proyek dan dependencies.
+```bash
+lib/
+├── controllers/       # Logic dan state management
+├── models/            # Model data/entities
+├── routes/            # Route/navigator aplikasi  
+├── services/          # Service API dan local storage
+├── themes/            # Konfigurasi tema aplikasi
+├── views/             # UI screens
+└── main.dart          # Entry point aplikasi
+```
 
 ## Dokumentasi API
 
